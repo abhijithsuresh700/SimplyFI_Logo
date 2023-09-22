@@ -1,0 +1,39 @@
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3A2B33;
+  height: 100vh; 
+}
+
+.square {
+  width: 250px;
+  height: 250px; 
+  background-color: transparent;
+  border: 25px solid;
+  border-top-color: #E46539;
+  border-bottom-color: #01ADEF;  
+  border-right-color: #BBB6B1;
+  border-left-color: #7DCDAC;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+.text {
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  font-family: Arial, Verdana, sans-serif;
+}
+.and{
+  color: #E3613B;
+}
+
+.subTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
